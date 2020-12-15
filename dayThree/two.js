@@ -33,6 +33,8 @@ const multiplyTreeInstances = async (slopes) => {
 
         const count = await countTreeInstances(horiz, vert);
 
+        console.log(slope, count);
+
         output *= count;
     });
 
